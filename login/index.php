@@ -15,9 +15,7 @@
 </head>
 <body>
   
-  <div class="container">
-    div.row>
-  </div>  
+  
 
 
   <!-- Required JS -->
