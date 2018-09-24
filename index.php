@@ -8,10 +8,10 @@
 */
 
 // Verify if session exists
-if (!isset($_SESSION["rcc_companhias_session"])) {
+if (!isset($_SESSION['rcc_companhias_session'])) {
     header('Location: ./login');
-} else if (isset($_SESSION["rcc_companhias_session"])) {
+} else if (isset($_SESSION['rcc_companhias_session'])) {
     header('Location: ./homepage');
 }
 
-?> 
+?>
