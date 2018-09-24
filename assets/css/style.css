@@ -1,3 +1,5 @@
+html, body { height: 100% }
+
 body {
   background: #fff url('../img/background.jpeg') no-repeat;
   background-size: cover;
