@@ -37,13 +37,36 @@
                    <div class="headerDivider"></div>
                 </div>
                 <div class="col-md-5">
-                    <a href="#" class="text-white">Esqueceu sua senha?</a>
+                    <a href="#" class="text-white" data-toggle="modal" data-target="#recuperarSenha">Esqueceu sua senha?</a>
                 </div>
             </div>
             <div class="col-md-12">
                 <a href="javascript:void(0)" class="btn btn-sm btn-signup btn-block btn-primary">Registre-se</a>
             </div>
         </form>
+      </div>
+  </div>
+  <div class="modal fade" tabindex="-1" id="recuperarSenha">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Recupere a sua senha</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Insira o seu endereço de email abaixo. Você receberá um email com um link para redefinir sua senha.</p>
+                <div class="form-group">
+                    <label for="emailReset"><small class="text-danger">*</small> Endereço de email</label>
+                    <input type="email" class="form-control" id="emailReset" required>
+                </div>
+                <button type="button" class="btn btn-success">Resetar senha</button>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary">Voltar</button>
+              </div>
+          </div>
       </div>
   </div>
 
