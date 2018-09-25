@@ -20,7 +20,7 @@
   <img src="../assets/img/logo.png" class="d-block mx-auto my-5" alt="">
   <div class="container">
     <div class="d-flex justify-content-center">
-        <form>
+        <form id="login">
             <div class="form-group">
                 <input type="email" class="form-control" placeholder="Usuário">
             </div>
@@ -57,3 +57,13 @@
 
 </body>
 </html>
+
+
+<script>
+    // jQuery functions
+    $(() => {
+        $(document).on("submit", "form#login", () => {
+            return false;
+        })
+    })
+</script>
