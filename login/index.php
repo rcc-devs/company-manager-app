@@ -15,6 +15,8 @@
 </head>
 <body>
 
+  <!-- @TODO: Arruma essa logo. Por amor de deus. bmartins -->
+
   <img src="../assets/img/logo.png" class="d-block mx-auto my-5" alt="">
   <div class="container">
     <div class="d-flex justify-content-center">
@@ -26,16 +28,22 @@
                 <input type="password" class="form-control" placeholder="Senha">
             </div>
             <button type="submit" class="btn btn-lg btn-block btn-lgn mb-2">Login</button>
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row painel-options-login">
+                <div class="col-md-5">
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="Check">
                         <label class="form-check-label text-white" for="Check">Permanecer conectado</label>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-2">
+                   <div class="headerDivider"></div>
+                </div>
+                <div class="col-md-5">
                     <a href="#" class="text-white">Esqueceu sua senha?</a>
                 </div>
+            </div>
+            <div class="col-md-12">
+                <a href="javascript:void(0)" class="btn btn-sm btn-signup btn-block btn-primary">Registar militar</a>
             </div>
         </form>
       </div>
