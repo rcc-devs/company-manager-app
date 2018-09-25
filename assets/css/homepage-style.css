@@ -1,0 +1,49 @@
+/*
+
+  Wire, presta atenção:
+  Fiz a página com base em flex.
+
+  Não mexe na estrutura em si.
+
+  Em header -> pode mexer em tudo
+
+  Em main -> background apenas
+
+  Em footer ->  pode mexer em tudo
+
+  O main é o segredo para que a página fique agora com 3 colunas. HEADER, MAIN E FOOTER
+
+  Note que está tudo dentro da BODY tag. Deixe ficar assim
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 70px;
+  background-color: #FF9800;
+}
+
+main {
+  flex: auto;
+  background-color: #8BC34A;
+}
+
+footer {
+  height: 50px;
+  background-color: #FF9800;
+}
