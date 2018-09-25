@@ -59,9 +59,13 @@
 </html>
 <script>
     // jQuery functions
-    $(() => {
-        $(document).on("submit", "form#login", () => {
-            return false;
-        })
-    })
+    (function ($) {
+        'use strict';
+        
+        $(function () {
+            $('form').on('submit', function (event) {
+                event.preventDefault();
+            });
+        });
+    })(jQuery);
 </script>
