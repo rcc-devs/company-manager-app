@@ -57,8 +57,6 @@
 
 </body>
 </html>
-
-
 <script>
     // jQuery functions
     $(() => {
