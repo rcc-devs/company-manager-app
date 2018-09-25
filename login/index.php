@@ -15,9 +15,7 @@
 </head>
 <body>
 
-  <!-- @TODO: Arruma essa logo. Por amor de deus. bmartins -->
-
-  <img src="../assets/img/logo.png" class="d-block mx-auto my-5" alt="">
+  <img src="../assets/img/logo.png" class="d-block mx-auto img-fluid logo" alt="">
   <div class="container">
     <div class="d-flex justify-content-center">
         <form id="login">
@@ -43,7 +41,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <a href="javascript:void(0)" class="btn btn-sm btn-signup btn-block btn-primary">Registar militar</a>
+                <a href="javascript:void(0)" class="btn btn-sm btn-signup btn-block btn-primary">Registre-se</a>
             </div>
         </form>
       </div>
@@ -61,7 +59,7 @@
     // jQuery functions
     (function ($) {
         'use strict';
-        
+
         $(function () {
             $('form').on('submit', function (event) {
                 event.preventDefault();

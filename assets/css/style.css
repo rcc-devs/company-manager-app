@@ -1,9 +1,17 @@
+/* Layout */
+
 html, body { height: 100% }
 
 body {
   background: #fff url('../img/background.jpeg') no-repeat;
   background-size: cover;
   background-position: top center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 50px 0px 30px 0px;
 }
 
 .btn-lgn {
@@ -18,7 +26,10 @@ body {
   margin-top: 10px;
   padding: 10px;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #8BC34A;
+  background-color: #4CAF50; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-90deg, #8BC34A, #4CAF50); /* Standar */
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .painel-options-login {
@@ -27,15 +38,72 @@ body {
   padding-top: 15px;
 }
 
-.headerDivider {
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .headerDivider {
+    margin-bottom: 10px;
+    border-left: 1px solid #fff;
+    background: #fff;
+    width: 200px;
+    height: 1px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .headerDivider {
+    margin-bottom: 10px;
+    border-left: 1px solid #fff;
+    background: #fff;
+    width: 200px;
+    height: 1px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .headerDivider {
     margin-left: 3px;
     border-left: 1px solid #fff;
     background: #fff;
     width: 1px;
     height: 50px;
+  }
 }
 
-/* Custom  scrollbar - ,SrGabriel e w3school (kkkk)*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .headerDivider {
+    margin-left: 3px;
+    border-left: 1px solid #fff;
+    background: #fff;
+    width: 1px;
+    height: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .headerDivider {
+    margin-left: 3px;
+    border-left: 1px solid #fff;
+    background: #fff;
+    width: 1px;
+    height: 50px;
+  }
+}
+
+/* Custom  scrollbar - ,SrGabriel & W3school*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -56,3 +124,5 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Typography */
