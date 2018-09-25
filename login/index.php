@@ -10,7 +10,7 @@
 
   <!-- Required CSS -->
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/login-style.css">
 
 </head>
 <body>
