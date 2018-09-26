@@ -10,19 +10,129 @@
     <!-- Required CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/homepage-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 </head>
 <body>
     <header>
-        <!-- Espaço para a navbar -->
-        <h6>Navbar</h6>
+        <nav class="navbar navbar-expand-lg navbar-default bg-custom">
+            <div class="container">
+                <a href="#" class="navbar-brand text-white" style="font-weight: 500">ALPHA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mr-3" id="navbarContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-bell"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="" class="dropdown-item"> Link</a>
+                                <a href="" class="dropdown-item"> Link</a>
+                                <a href="" class="dropdown-item"> Link</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-flag"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="" class="dropdown-item"> Link</a>
+                                <a href="" class="dropdown-item"> Link</a>
+                                <a href="" class="dropdown-item"> Link</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="" class="dropdown-item"> Link</a>
+                                <a href="" class="dropdown-item"> Link</a>
+                                <a href="" class="dropdown-item"> Link</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- ./ Collapse -->
+            </div><!-- ./ Container -->
+        </nav>
     </header>
     <main>
-        <!-- Todo o conteúdo exceto navbar e footer -->
-        <h6>Content</h6>
+        <div class="sidebar">
+            <div class="capa">
+                <div class="perfil">
+                    <div class="avatar">
+                        <img src="../assets/img/head.png" class="head" alt="">
+                    </div>
+                    <div class="info">
+                        <span class="nome">.Wire.-</span><br>
+                        <span class="cargo">Administrador</span>
+                        <span class="menu"><i class="fas fa-angle-down"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="navigation">
+                    <span>Navegação</span>
+                </div>
+                <ul class="nav flex-column ml-3 mt-2">
+                    <li class="nav-item"><a href="" class="nav-link active"><i class="fas fa-home"></i> Início</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-lightbulb"></i> Liderança</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-gavel"></i> Ministério</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-layer-group"></i> Projetos</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-calendar-alt"></i> Eventos</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> Aulas/Scripts</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-medal"></i> Gratificações</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-users"></i> Membros</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-th-large"></i> Utilitários</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-question-circle"></i> Perguntas frequentes</a></li>
+                </ul>
+                <hr>
+                <p class="texto">
+                    &copy; 2018 <span style="color: #ff9800; font-weight: 500;">Gestão das Companhias</span><br>
+                    Versão: 1.0<br>
+                    Desenvolvido por: ,SrGabriel e .Wire.-
+                </p>
+            </div>
+        </div>
+        <!--
+            <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="media align-items-stretch">
+                                <div class="p-2 text-center bg-info rounded-left">
+                                <i class="fas fa-calculator text-white"></i>
+                                </div>
+                                <div class="p-2 media-body">
+                                <h5>Nova Função</h5>
+                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
     </main>
+
     <footer>
         <!-- Espaço para o footer -->
         <h6>Footer</h6>
     </footer>
+
+    <!-- Required JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+
 </body>
 </html>
