@@ -64,9 +64,9 @@
         </nav>
     </header>
     <main>
-        <div class="container" style="margin: 0; padding: 0;">
-            <div class="row">
-                <div class="col-md-4">
+        <div class="container-fluid">
+            <div class="row" >
+                <div class="col-lg-3" style="margin: 0; padding: 0;">
                     <div class="sidebar">
                         <div class="capa">
                             <div class="perfil">
@@ -105,9 +105,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8" style="margin: 0; padding: 0;">
+                <div class="col-xl-8 d-flex justify-content-center inicial-margin">
                     <div class="row cards-zone">
-                        <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="col-xl-3 col-lg-6 col-lg-12">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media align-items-stretch">
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="col-xl-3 col-lg-6 col-lg-12">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media align-items-stretch">
@@ -137,7 +137,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="col-xl-3 col-lg-6 col-lg-12">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media align-items-stretch">
@@ -152,7 +152,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="col-xl-3 col-lg-6 col-lg-12">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media align-items-stretch">

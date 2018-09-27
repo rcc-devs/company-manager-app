@@ -163,3 +163,44 @@ footer {
   height: 50px;
   background-color: #FF9800;
 }
+
+/* Custom  scrollbar - ,SrGabriel & W3school*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Typography */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1080px) {
+  .sidebar {
+    width: 100% !important;
+  }
+
+  .inicial-margin {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    margin-bottom: 5px;
+  }
+}
