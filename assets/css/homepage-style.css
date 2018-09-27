@@ -33,11 +33,6 @@ header {
   height: 70px;
 }
 
-main {
-  flex: auto;
-  background-color: #e9e9e9;
-}
-
 footer {
   height: 50px;
   background-color: #FF9800;
@@ -67,7 +62,7 @@ a:focus {
   padding: 15px 10px;
   background: #fff;
   border: none;
-  border-radius: 0;
+  border-radius: .25rem;
   margin-bottom: 40px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -83,12 +78,6 @@ a:focus {
   height: 1px;
   border-bottom: 1px dashed #ddd;
   margin: 40px 0;
-}
-
-.wrapper {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
 }
 
 #sidebar {
@@ -176,13 +165,6 @@ a.article:hover {
   color: #fff !important;
 }
 
-#content {
-  width: 100%;
-  padding: 20px;
-  min-height: 100vh;
-  transition: all 0.3s;
-}
-
 @media (max-width: 768px) {
   #sidebar {
     margin-left: -250px;
@@ -193,4 +175,30 @@ a.article:hover {
   #sidebarCollapse span {
     display: none;
   }
+}
+
+/**
+ * Flexbox layout.
+ */
+
+.global-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-width: 100vh;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper > .main-content {
+  background-color: #e9e9e9;
+  flex-grow: 1;
+  padding: 20px;
 }
