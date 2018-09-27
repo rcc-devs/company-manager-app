@@ -14,8 +14,8 @@
 
 </head>
 <body>
-    <div class="wrapper">
-        <header>
+    <div class="global-wrapper">
+        <aside class="nav-wrapper">
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <h3>Bootstrap Sidebar</h3>
@@ -45,9 +45,9 @@
                     <li><a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <div id="content">
+        </aside>
+        <main class="content-wrapper">
+            <div class="main-content">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                         <button type="button" id="sidebarCollapse" class="btn btn-info">
@@ -88,11 +88,10 @@
                 <h3>Lorem Ipsum Dolor</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
+            <footer class="main-footer">
+                <h6>Footer</h6>
+            </footer>
         </main>
-
-        <footer>
-            <h6>Footer</h6>
-        </footer>
     </div>
 
     <!-- Required JS -->
@@ -100,7 +99,7 @@
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
 
-    <!-- Sidebar JS --> 
+    <!-- Sidebar JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
