@@ -14,174 +14,100 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-default bg-custom">
-            <div class="container">
-                <a href="#" class="navbar-brand text-white" style="font-weight: 500">ALPHA</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse mr-3" id="navbarContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                <i class="fas fa-bell"></i>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="" class="dropdown-item"> Link</a>
-                                <a href="" class="dropdown-item"> Link</a>
-                                <a href="" class="dropdown-item"> Link</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                <i class="fas fa-flag"></i>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="" class="dropdown-item"> Link</a>
-                                <a href="" class="dropdown-item"> Link</a>
-                                <a href="" class="dropdown-item"> Link</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                <i class="fas fa-ellipsis-v"></i>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="" class="dropdown-item"> Link</a>
-                                <a href="" class="dropdown-item"> Link</a>
-                                <a href="" class="dropdown-item"> Link</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div><!-- ./ Collapse -->
-            </div><!-- ./ Container -->
-        </nav>
-    </header>
-    <main>
-        <div class="container-fluid">
-            <div class="row" >
-                <div class="col-lg-3" style="margin: 0; padding: 0;">
-                    <div class="sidebar">
-                        <div class="capa">
-                            <div class="perfil">
-                                <div class="avatar">
-                                    <img src="../assets/img/head.png" class="head" alt="">
-                                </div>
-                                <div class="info">
-                                    <span class="nome">.Wire.-</span><br>
-                                    <span class="cargo">Administrador</span>
-                                    <span class="menu"><i class="fas fa-angle-down"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu">
-                            <div class="navigation">
-                                <span>Navegação</span>
-                            </div>
-                            <ul class="nav flex-column ml-3 mt-2">
-                                <li class="nav-item"><a href="" class="nav-link active"><i class="fas fa-home"></i> Início</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-lightbulb"></i> Liderança</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-gavel"></i> Ministério</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-layer-group"></i> Projetos</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-calendar-alt"></i> Eventos</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> Aulas/Scripts</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-medal"></i> Gratificações</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-users"></i> Membros</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-th-large"></i> Utilitários</a></li>
-                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-question-circle"></i> Perguntas frequentes</a></li>
-                            </ul>
-                            <hr>
-                            <p class="texto">
-                                &copy; 2018 <span style="color: #ff9800; font-weight: 500;">Gestão das Companhias</span><br>
-                                Versão: 1.0<br>
-                                Desenvolvido por: ,SrGabriel e .Wire.-
-                            </p>
-                        </div>
-                    </div>
+    <div class="wrapper">
+        <header>
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Bootstrap Sidebar</h3>
                 </div>
-                <div class="col-xl-8 d-flex justify-content-center inicial-margin">
-                    <div class="row cards-zone">
-                        <div class="col-xl-3 col-lg-6 col-lg-12">
-                            <div class="card">
-                                <div class="card-content">
-                                    <div class="media align-items-stretch">
-                                        <div class="card-icon text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator"></i>
-                                        </div>
-                                        <div class="p-2 media-body card-info">
-                                            <h5>Products</h5>
-                                            <h6 class="mb-0">28</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-lg-12">
-                            <div class="card">
-                                <div class="card-content">
-                                    <div class="media align-items-stretch">
-                                        <div class="card-icon text-center bg-danger rounded-left">
-                                            <i class="fas fa-bullseye"></i>
-                                        </div>
-                                        <div class="p-2 media-body card-info">
-                                            <h5>New Users</h5>
-                                            <h6 class="mb-0">1,22,356</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-lg-12">
-                            <div class="card">
-                                <div class="card-content">
-                                    <div class="media align-items-stretch">
-                                        <div class="card-icon text-center bg-success rounded-left">
-                                            <i class="fas fa-wrench"></i>
-                                        </div>
-                                        <div class="p-2 media-body card-info">
-                                            <h5>New Orders</h5>
-                                            <h6 class="mb-0">4,65,879</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-lg-12">
-                            <div class="card">
-                                <div class="card-content">
-                                    <div class="media align-items-stretch">
-                                        <div class="card-icon text-center bg-warning rounded-left">
-                                            <i class="fas fa-user-plus"></i>
-                                        </div>
-                                        <div class="p-2 media-body card-info">
-                                            <h5>Nova ferramenta</h5>
-                                            <h6 class="mb-0">Gerenciar membros</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+                <ul class="list-unstyled components">
+                    <p>Dummy Heading</p>
+                    <li class="active"><a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 2</a></li>
+                            <li><a href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="#">Page 1</a></li>
+                            <li><a href="#">Page 2</a> </li>
+                            <li><a href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="list-unstyled CTAs">
+                    <li><a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a></li>
+                    <li><a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                            <span>Toggle Sidebar</span>
+                        </button>
+                        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarContent">
+                            <i class="fas fa-align-justify"></i>
+                        </button>
 
-    <footer>
-        <!-- Espaço para o footer -->
-        <h6>Footer</h6>
-    </footer>
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="#">Page</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Page</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Page</a>
+                                <li class="nav-item"><a class="nav-link" href="#">Page</a>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="line"></div>
+
+                <h2>Lorem Ipsum Dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="line"></div>
+
+                <h2>Lorem Ipsum Dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="line"></div>
+
+                <h3>Lorem Ipsum Dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </main>
+
+        <footer>
+            <h6>Footer</h6>
+        </footer>
+    </div>
 
     <!-- Required JS -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
+
+    <!-- Sidebar JS --> 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
 
 </body>
 </html>
