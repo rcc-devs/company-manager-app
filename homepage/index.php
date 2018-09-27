@@ -105,128 +105,63 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8" align="center" style="margin: 0; padding: 0; ">
-                <div class="line-white"></div>
-                    <div class="container">
-                        <div class="row cards-zone">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
+                <div class="col-md-8" style="margin: 0; padding: 0;">
+                    <div class="row cards-zone">
+                        <div class="col-xl-3 col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media align-items-stretch">
+                                        <div class="card-icon text-center bg-info rounded-left">
+                                            <i class="fas fa-calculator"></i>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
+                                        <div class="p-2 media-body card-info">
+                                            <h5>Products</h5>
+                                            <h6 class="mb-0">28</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row cards-zone">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
+                        <div class="col-xl-3 col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media align-items-stretch">
+                                        <div class="card-icon text-center bg-danger rounded-left">
+                                            <i class="fas fa-bullseye"></i>
+                                        </div>
+                                        <div class="p-2 media-body card-info">
+                                            <h5>New Users</h5>
+                                            <h6 class="mb-0">1,22,356</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media align-items-stretch">
+                                        <div class="card-icon text-center bg-success rounded-left">
+                                            <i class="fas fa-wrench"></i>
+                                        </div>
+                                        <div class="p-2 media-body card-info">
+                                            <h5>New Orders</h5>
+                                            <h6 class="mb-0">4,65,879</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media align-items-stretch">
+                                        <div class="card-icon text-center bg-warning rounded-left">
+                                            <i class="fas fa-user-plus"></i>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media align-items-stretch">
-                                            <div class="p-2 text-center bg-info rounded-left">
-                                            <i class="fas fa-calculator text-white"></i>
-                                            </div>
-                                            <div class="p-2 media-body">
-                                                <h5>Nova Função</h5>
-                                                <h5 class="text-bold-400 mb-0">Calcular meta</h5>
-                                            </div>
+                                        <div class="p-2 media-body card-info">
+                                            <h5>Nova ferramenta</h5>
+                                            <h6 class="mb-0">Gerenciar membros</h6>
                                         </div>
                                     </div>
                                 </div>
