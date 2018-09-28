@@ -5,20 +5,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login — Gestão de companhias</title>
+    <title>Gestão de companhias</title>
 
     <!-- Required CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/homepage-style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
 </head>
 <body>
     <div class="global-wrapper">
         <aside class="nav-wrapper">
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Gestão de Companhias</h3>
+                    <h3 class="text-white">Gestão de Companhias</h3>
                 </div>
                 <ul class="list-unstyled components">
                     <li class="active"><a href=""><i class="fas fa-home"></i> Home</a></li>
@@ -33,16 +32,16 @@
                     <li><a href=""><i class="far fa-question-circle"></i> Perguntas frequentes</a></li>
                 </ul>
                 <ul class="list-unstyled ABT">
-                    <li><a href="#" class="copy" data-toggle="popover" data-trigger="focus" title="Copyright" data-content="&copy; 2018 Gestão de Companhias">Copyright</a></li>
-                    <li><a href="#" class="copy" data-toggle="popover" data-trigger="focus" title="Copyright" data-content="Desenvolvido por: ,SrGabriel & .Wire.-">Desenvolvedores</a></li>
+                    <li><a href="" class="copy" data-toggle="popover" data-trigger="focus" title="Copyright" data-content="&copy; 2018 Gestão de Companhias">Copyright</a></li>
+                    <li><a href="" class="copy" data-toggle="popover" data-trigger="focus" title="Desenvolvedores" data-content="Desenvolvido por: ,SrGabriel & .Wire.-">Desenvolvedores</a></li>
                 </ul>
             </nav>
         </aside>
         <main class="content-wrapper">
             <div class="main-content">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
                     <div class="container-fluid">
-                        <button type="button" id="sidebarCollapse" class="btn btn-dark">
+                        <button type="button" id="sidebarCollapse" class="btn btn-custom">
                             <i class="fas fa-align-left"></i>
                             <span>Menu</span>
                         </button>
@@ -115,11 +114,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mx-1">
-                    <div class="col-lg-12 bg-light">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget turpis vel libero euismod venenatis non et neque. Curabitur vitae tellus id lacus pharetra blandit vestibulum nec orci. Sed velit mi, consectetur in tempor nec, cursus sit amet quam. Sed ut augue arcu. Morbi non egestas nisl, vel viverra magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent tristique purus sit amet lacus dictum iaculis.</p>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="alert alert-light alert-dismissible fade show">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span>&times;</span>
+                            </button>
+                            <h4 class="alert-heading">Nova versão!</h4>
+                            <p>Nós agradecemos pela preferência em utilizar o <strong>Sistema de Gestão de Companhias</strong>, esperemos que você faça bom uso dele. Caso encontre algum problema, informe os desenvolvedores.</p>
+                            <hr>
+                            <p class="mb-0">Nesta versão, nós corrigimos alguns bugs chatos. <a href="" class="alert-link">Confira mais!</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        
+                    </div>
+                    <div class="col-lg-3">
 
-                        <p>Sed sit amet dui lacinia, tristique enim eget, tempus diam. In gravida molestie velit sit amet scelerisque. Aenean suscipit orci ut purus laoreet aliquet. Aenean ac eleifend metus. Mauris non nulla vel leo malesuada blandit. Proin sit amet tellus sit amet risus facilisis blandit. In a ultrices magna. Aenean hendrerit odio in enim vulputate consequat id ut lacus. Pellentesque vitae cursus odio. Morbi feugiat diam nibh, quis interdum mi fringilla nec. Integer ac mattis dolor. Fusce molestie, sapien ut venenatis sollicitudin, dui arcu ornare magna, ac luctus purus nisi at turpis.</p>
                     </div>
                 </div>
             </div>

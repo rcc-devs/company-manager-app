@@ -80,7 +80,6 @@ a:focus {
 
 .navbar {
   padding: 15px 10px;
-  background: #fff;
   border: none;
   border-radius: .25rem;
   margin-bottom: 40px;
@@ -96,8 +95,8 @@ a:focus {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #747474;
-  color: #fff;
+  background: #fff;
+  color: #747474;
   transition: all 0.3s;
 }
 
@@ -113,29 +112,20 @@ a:focus {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #9E9E9E;
-}
-
-#sidebar ul p {
-  color: #fff;
-  padding: 10px;
+  border-bottom: 1px solid #eee;
 }
 
 #sidebar ul li a {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 0.9em;
   display: block;
 }
 
-#sidebar ul li a:hover {
-  color: #616161;
-  background: #fff;
-}
-
+#sidebar ul li a:hover,
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #9E9E9E;
+  background: #FF9800;
 }
 
 a[data-toggle="collapse"] {
@@ -153,16 +143,32 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #747474;
+  background: #FF9800;
 }
 
 ul.ABT {
   padding: 20px;
 }
 
+.bg-custom {
+  background: linear-gradient(90deg, #FF9800, #FFC107);
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,152,0,1);
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #FF9800;
+  border-color: #FF9800;
+}
+
 .card-zone {
   color: #fff;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .card-icon {
@@ -174,6 +180,11 @@ ul.ABT {
 .card-info {
   padding: 1.5rem;
 }
+
+
+
+
+
 
 @media (max-width: 768px) {
   #sidebar {
