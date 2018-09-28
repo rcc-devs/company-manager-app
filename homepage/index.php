@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <!-- Required tags -->
     <meta charset="utf-8" />
@@ -18,75 +18,110 @@
         <aside class="nav-wrapper">
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Bootstrap Sidebar</h3>
+                    <h3>Gestão de Companhias</h3>
                 </div>
                 <ul class="list-unstyled components">
-                    <p>Dummy Heading</p>
-                    <li class="active"><a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li><a href="#">Home 1</a></li>
-                            <li><a href="#">Home 2</a></li>
-                            <li><a href="#">Home 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li><a href="#">Page 1</a></li>
-                            <li><a href="#">Page 2</a> </li>
-                            <li><a href="#">Page 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href=""><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href=""><i class="fas fa-lightbulb"></i> Liderança</a></li>
+                    <li><a href=""><i class="fas fa-gavel"></i> Ministério</a></li>
+                    <li><a href=""><i class="fas fa-users"></i> Membros</a></li>
+                    <li><a href=""><i class="fas fa-chalkboard-teacher"></i> Aulas</a></li>
+                    <li><a href=""><i class="fas fa-medal"></i> Gratificações</a></li>
+                    <li><a href=""><i class="far fa-calendar-alt"></i> Eventos</a></li>
+                    <li><a href=""><i class="fas fa-layer-group"></i> Projetos</a></li>
+                    <li><a href=""><i class="fas fa-th-large"></i> Utilitários</a></li>
+                    <li><a href=""><i class="far fa-question-circle"></i> Perguntas frequentes</a></li>
                 </ul>
-                <ul class="list-unstyled CTAs">
-                    <li><a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a></li>
-                    <li><a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a></li>
+                <ul class="list-unstyled ABT">
+                    <li><a href="#" class="copy" data-toggle="popover" data-trigger="focus" title="Copyright" data-content="&copy; 2018 Gestão de Companhias">Copyright</a></li>
+                    <li><a href="#" class="copy" data-toggle="popover" data-trigger="focus" title="Copyright" data-content="Desenvolvido por: ,SrGabriel & .Wire.-">Desenvolvedores</a></li>
                 </ul>
             </nav>
         </aside>
         <main class="content-wrapper">
             <div class="main-content">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid">
-                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <button type="button" id="sidebarCollapse" class="btn btn-dark">
                             <i class="fas fa-align-left"></i>
-                            <span>Toggle Sidebar</span>
+                            <span>Menu</span>
                         </button>
                         <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarContent">
                             <i class="fas fa-align-justify"></i>
                         </button>
-
                         <div class="collapse navbar-collapse" id="navbarContent">
                             <ul class="nav navbar-nav ml-auto">
-                                <li class="nav-item active"><a class="nav-link" href="#">Page</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Page</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Page</a>
-                                <li class="nav-item"><a class="nav-link" href="#">Page</a>
+                                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-search"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-bell"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-flag"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-ellipsis-v"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
 
-                <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h6>PAINEL</h6>
+                <div class="row card-zone">
+                    <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="card">
+                            <div class="media align-items-stretch">
+                                <div class="card-icon rounded-left" style="background-color: #3f51b5">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <div class="card-info media-body" style="background-color: #311b92">
+                                    <h6>Nova função</h6>
+                                    <h5 class="mb-0">Calcular metas</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="card">
+                            <div class="media align-items-stretch">
+                                <div class="card-icon rounded-left" style="background-color: #2196f3">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="card-info media-body" style="background-color: #03a9f4">
+                                    <h6>Nova função</h6>
+                                    <h5 class="mb-0">Configurar companhia</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="card">
+                            <div class="media align-items-stretch">
+                                 <div class="card-icon rounded-left" style="background-color: #7bac41">
+                                    <i class="fas fa-wrench"></i>
+                                </div>
+                                <div class="card-info media-body" style="background-color: #8bc34a">
+                                    <h6>Nova função</h6>
+                                    <h5 class="mb-0">Alterar scripts</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="card">
+                            <div class="media align-items-stretch">
+                                <div class="card-icon rounded-left" style="background-color: #ce1a57">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="card-info media-body" style="background-color: #e91e63">
+                                    <h6>Nova função</h6>
+                                    <h5 class="mb-0">Gerenciar membros</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-1">
+                    <div class="col-lg-12 bg-light">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget turpis vel libero euismod venenatis non et neque. Curabitur vitae tellus id lacus pharetra blandit vestibulum nec orci. Sed velit mi, consectetur in tempor nec, cursus sit amet quam. Sed ut augue arcu. Morbi non egestas nisl, vel viverra magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent tristique purus sit amet lacus dictum iaculis.</p>
 
-                <div class="line"></div>
-
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-
-                <h3>Lorem Ipsum Dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Sed sit amet dui lacinia, tristique enim eget, tempus diam. In gravida molestie velit sit amet scelerisque. Aenean suscipit orci ut purus laoreet aliquet. Aenean ac eleifend metus. Mauris non nulla vel leo malesuada blandit. Proin sit amet tellus sit amet risus facilisis blandit. In a ultrices magna. Aenean hendrerit odio in enim vulputate consequat id ut lacus. Pellentesque vitae cursus odio. Morbi feugiat diam nibh, quis interdum mi fringilla nec. Integer ac mattis dolor. Fusce molestie, sapien ut venenatis sollicitudin, dui arcu ornare magna, ac luctus purus nisi at turpis.</p>
+                    </div>
+                </div>
             </div>
             <footer class="main-footer">
                 <h6>Footer</h6>
@@ -99,12 +134,16 @@
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
 
-    <!-- Sidebar JS -->
+    <!-- Additional JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
             });
+        });
+
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
         });
     </script>
 
