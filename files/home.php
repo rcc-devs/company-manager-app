@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom-company">
     <div class="container-fluid">
-        <button type="button" id="sidebarCollapse" class="btn btn-dark">
+        <button type="button" id="sidebarCollapse" class="btn btn-dark btn-custom-company">
             <i class="fas fa-align-left"></i>
             <span>Menu</span>
         </button>
