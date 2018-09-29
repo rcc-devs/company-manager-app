@@ -2,6 +2,11 @@
     // open session
     session_start();
 
+    // in dev - bmartins
+    /* if(isset($_SESSION['rcc_main_session'])) {
+        header('Location: ../login');
+    } */
+
     // require database connection
     require("../files/database.php");
 
