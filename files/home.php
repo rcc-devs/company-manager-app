@@ -81,22 +81,51 @@
             <div class="destaque mx-auto">
                 <span class="avatar"></span>
             </div>
-                <p class="mt-2">
-                    Olá, eu sou o <strong>.Wire.-</strong>, o membro do mês!
-                    Sou o <strong>administrador</strong> deste site.
-                </p>
+            <p class="mt-2">
+                Olá, eu sou o <strong>.Wire.-</strong>, o membro do mês!
+                Sou o <strong>administrador</strong> deste site.
+            </p>
         </div>
     </div>
     <div class="col-lg-6">
         <div class="activities">
-            <h6>Criação</h6>
+            <h6>Avisos</h6>
             <hr class="my-3">
+
         </div>
     </div>
     <div class="col-lg-3">
         <div class="activities">
-            <h6>Criação</h6>
+            <h6>Atividades recentes</h6>
             <hr class="my-3">
+            <div class="latest">
+                <span class="badge badge-pill badge-info">
+                    <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
+                </span>
+                <small>2 segundos atrás</small><br>
+                <span>,SrGabriel acessou a interface.</span>
+                <hr class="my-3">
+
+                <span class="badge badge-pill badge-info">
+                    <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
+                </span>
+                <small>50 minutos atrás</small><br>
+                <span>.Wire.- atualizou o design do site.</span>
+                <hr class="my-3">
+
+                <span class="badge badge-pill badge-info">
+                    <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
+                </span>
+                <small>20 horas atrás</small><br>
+                <span>Goufix. adicionou dois novos membros.</span>
+                <hr class="my-3">
+
+                <span class="badge badge-pill badge-info">
+                    <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
+                </span>
+                <small>3 dias atrás</small><br>
+                <span>Dean.Santos aprovou um projeto.</span>
+            </div>
         </div>
     </div>
 </div>
