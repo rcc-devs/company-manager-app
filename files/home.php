@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <button type="button" id="sidebarCollapse" class="btn btn-custom">
+        <button type="button" id="sidebarCollapse" class="btn btn-dark">
             <i class="fas fa-align-left"></i>
             <span>Menu</span>
         </button>
@@ -74,13 +74,20 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-3">
         <div class="activities">
-            <h6>Criação</h6>
+            <h6>Destaque mensal</h6>
             <hr class="my-3">
+            <div class="destaque mx-auto">
+                <span class="avatar"></span>
+            </div>
+                <p class="mt-2">
+                    Olá, eu sou o <strong>.Wire.-</strong>, o membro do mês!
+                    Sou o <strong>administrador</strong> deste site.
+                </p>
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-lg-6">
         <div class="activities">
             <h6>Criação</h6>
             <hr class="my-3">
