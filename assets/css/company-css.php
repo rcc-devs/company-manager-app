@@ -35,7 +35,12 @@
 
 .btn-custom-company {
     background: <?php echo $options["hover"] ?>;
-    border-color: <?php echo '"'.$options["hover"].'"' ?>;
+    border-color: <?php echo $options["hover"] ?>;
+    color: #fff;
+}
+
+.btn-custom-company:hover{
+    background: <?php echo $options["hover"] ?>
 }
 
 .btn-custom-company:focus {
@@ -44,8 +49,4 @@
 
 footer {
     background: <?php echo $options["hover"] ?>
-}
-
-.btn-custom-company:hover{
-    background: <?php echo $options["color"] ?>
 }
