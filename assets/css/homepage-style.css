@@ -181,9 +181,10 @@ ul.ABT {
   padding: 1.5rem;
 }
 
-
-
-
+.activities {
+  background-color: #fff;
+  padding: 1rem;
+}
 
 
 @media (max-width: 768px) {

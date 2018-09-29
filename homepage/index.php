@@ -115,22 +115,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="alert alert-light alert-dismissible fade show">
-                            <button type="button" class="close" data-dismiss="alert">
-                                <span>&times;</span>
-                            </button>
-                            <h4 class="alert-heading">Nova versão!</h4>
-                            <p>Nós agradecemos pela preferência em utilizar o <strong>Sistema de Gestão de Companhias</strong>, esperemos que você faça bom uso dele. Caso encontre algum problema, informe os desenvolvedores.</p>
-                            <hr>
-                            <p class="mb-0">Nesta versão, nós corrigimos alguns bugs chatos. <a href="" class="alert-link">Confira mais!</a></p>
+                    <div class="col-lg-6">
+                        <div class="activities">
+                            <h6>Criação</h6>
+                            <hr class="my-3">
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        
+                    <div class="col-lg-3">
+                        <div class="activities">
+                            <h6>Criação</h6>
+                            <hr class="my-3">
+                        </div>
                     </div>
                     <div class="col-lg-3">
-
+                        <div class="activities">
+                            <h6>Criação</h6>
+                            <hr class="my-3">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,6 +145,7 @@
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
     <!-- Additional JS -->
     <script type="text/javascript">
