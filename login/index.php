@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<?php
-?>
 <html>
 <head>
 
@@ -23,9 +21,15 @@
         <form id="login">
             <div class="form-group">
                 <input type="email" class="form-control" placeholder="Usuário">
+                <div class="alert alert-danger mt-1" role="alert">
+                    A simple danger alert—check it out!
+                </div>
             </div>
             <div class="form-group">
                 <input type="password" class="form-control" placeholder="Senha">
+                <div class="alert alert-danger mt-1" role="alert">
+                    A simple danger alert—check it out!
+                </div>
             </div>
             <button type="submit" class="btn btn-lg btn-block btn-lgn mb-2">Login</button>
             <div class="row painel-options-login">
@@ -87,6 +91,9 @@
 
         $(function () {
             $('form').on('submit', function (event) {
+                var email = $("input[type='email']").val();
+                var password = $("input[type='password']").val();
+
                 event.preventDefault();
             });
         });
