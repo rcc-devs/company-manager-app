@@ -1,7 +1,11 @@
 <?php
-    //open session
+    // open session
     session_start();
-    //get command and params
+
+    // require database connection
+    require("../files/database.php");
+
+    // get command and params
     $main_url = (isset($_REQUEST['p']) ? $_REQUEST['p'] : 'home');
 ?>
 <!DOCTYPE html>
