@@ -91,7 +91,43 @@
         <div class="activities">
             <h6>Avisos</h6>
             <hr class="my-3">
-
+            <div class="row mb-3">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Avisos</h5>
+                            <p class="card-text">Esta seção está reservada para os diversos avisos que uma companhia pode precisar, esperamos que faça bons usos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Reunião</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Data prevista: 30 Set 2018</h6>
+                            <p class="card-text">A <strong>Liderança</strong> está aguardando por sua presença, em mais uma reunião importante para o desenvolvimento da nossa companhia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-content">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Avisos</h5>
+                            <p class="card-text">Esta seção está reservada para os diversos avisos que uma companhia pode precisar, esperamos que faça bons usos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Avisos</h5>
+                            <p class="card-text">Esta seção está reservada para os diversos avisos que uma companhia pode precisar, esperamos que faça bons usos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="col-lg-3">
