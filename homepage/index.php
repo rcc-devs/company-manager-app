@@ -7,7 +7,7 @@
         header('Location: ../login');
     } */
 
-    $_SESSION['company_code'] = 1;
+    $_SESSION['company_code'] = 0;
     // require database connection
     require("../files/database.php");
 
