@@ -178,6 +178,7 @@ ul.ABT {
   width: 114px;
   height: 114px;
   border: 1px solid #e9e9e9;
+  border-radius: 5px;
   position: relative;
 }
 
@@ -194,8 +195,10 @@ ul.ABT {
   background-image: url('../img/avatar2.png');
 }
 
-
-
+.latest>span {
+  font-size: 13px;
+  font-weight: 500;
+}
 
 
 
