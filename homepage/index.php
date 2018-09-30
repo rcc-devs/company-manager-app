@@ -51,9 +51,13 @@
                     <li><a href=""><i class="fas fa-th-large"></i> Utilitários</a></li>
                     <li><a href=""><i class="far fa-question-circle"></i> Perguntas frequentes</a></li>
                 </ul>
-                <ul class="list-unstyled ABT">
-                    <li><a href="" class="copy" data-toggle="popover" data-trigger="focus" title="Copyright" data-content="&copy; 2018 Gestão de Companhias">Copyright</a></li>
-                    <li><a href="" class="copy" data-toggle="popover" data-trigger="focus" title="Desenvolvedores" data-content="Desenvolvido por: ,SrGabriel & .Wire.-">Desenvolvedores</a></li>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Copyright" data-content="&copy; 2018 Gestão de Companhias"><i class="far fa-copyright"></i> Copyright</a>
+                    </li>
+                    <li>
+                        <a href="" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Desenvolvedores" data-content=",SrGabriel / .Wire.- / Goufix."><i class="fas fa-code"></i> Desenvolvedores</a>
+                    </li>
                 </ul>
             </nav>
         </aside>
@@ -80,7 +84,6 @@
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
     <!-- Additional JS -->
     <script type="text/javascript">
@@ -88,10 +91,6 @@
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
             });
-        });
-
-        $(document).ready(function(){
-            $('[data-toggle="popover"]').popover();
         });
     </script>
 

@@ -130,10 +130,6 @@ ul ul a {
   padding-left: 30px !important;
 }
 
-ul.ABT {
-  padding: 20px;
-}
-
 .navbar {
   padding: 15px 10px;
   border: none;
@@ -194,7 +190,6 @@ ul.ABT {
   font-size: 13px;
   font-weight: 500;
 }
-
 
 @media (max-width: 768px) {
   #sidebar {

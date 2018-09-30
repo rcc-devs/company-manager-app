@@ -86,8 +86,15 @@
                 Sou o <strong>administrador</strong> deste site.
             </p>
         </div>
-        <div class="activities">
-        
+        <div class="activities mt-3">
+            <h6>Promovidos</h6>
+            <hr class="my-3">
+            <p class="mt-2">A lista dos últimos policiais promovidos em nossa companhia, já foi divulgada. <strong>Confira agora</strong>!</p>
+        </div>
+        <div class="activities mt-3">
+            <h6>Anúncio</h6>
+            <hr class="my-3">
+            <img src="http://placehold.jp/250x300.png" class="d-block mx-auto img-fluid roundend">
         </div>
     </div>
     <div class="col-lg-6">
@@ -133,9 +140,41 @@
                 </div>
             </div>
         </div>
+        <div class="activities mt-3">
+            <h6>Auditoria Fiscal</h6>
+            <hr class="my-3">
+            
+        </div>
     </div>
     <div class="col-lg-3">
         <div class="activities">
+            <h6>Minha(s) meta(s)</h6>
+            <hr class="my-3">
+            <div class="goals">
+                <span>Meta total</span>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" style="width: 50%" data-toggle="tooltip" data-placement="top" title="50/100"></div>
+                    <div class="progress-bar bg-warning" style="width: 5%" data-toggle="tooltip" data-placement="top" title="5/100"></div>
+                    <div class="progress-bar bg-success" style="width: 30%" data-toggle="tooltip" data-placement="top" title="30/100"></div>
+                </div>
+                <hr class="my-3">
+                <span>Supervisões</span>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-custom-company" style="width: 50%" data-toggle="tooltip" data-placement="left" title="50/100"></div>
+                </div>
+                <hr class="my-3">
+                <span>Segurança Geral</span>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-custom-company" style="width: 5%" data-toggle="tooltip" data-placement="left" title="5/100"></div>
+                </div>
+                <hr class="my-3">
+                <span>Aula de promotor</span>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-custom-company" style="width: 30%" data-toggle="tooltip" data-placement="left" title="30/100"></div>
+                </div>
+            </div>
+        </div>
+        <div class="activities mt-3">
             <h6>Atividades recentes</h6>
             <hr class="my-3">
             <div class="latest">
@@ -145,21 +184,18 @@
                 <small>2 segundos atrás</small><br>
                 <span>,SrGabriel acessou a interface.</span>
                 <hr class="my-3">
-
                 <span class="badge badge-pill badge-info">
                     <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
                 </span>
                 <small>50 minutos atrás</small><br>
                 <span>.Wire.- atualizou o design do site.</span>
                 <hr class="my-3">
-
                 <span class="badge badge-pill badge-info">
                     <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
                 </span>
                 <small>20 horas atrás</small><br>
                 <span>Goufix. adicionou dois novos membros.</span>
                 <hr class="my-3">
-
                 <span class="badge badge-pill badge-info">
                     <i class="fas fa-clock" style="transform: rotateY(180deg)"></i>
                 </span>
