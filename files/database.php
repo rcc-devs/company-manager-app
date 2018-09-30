@@ -12,9 +12,9 @@ $options[PDO::MYSQL_ATTR_INIT_COMMAND] = 'SET NAMES utf8';
 $options[PDO::ATTR_DEFAULT_FETCH_MODE] = PDO::FETCH_ASSOC;
 $options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 define('DATABASE_HOST', 'localhost:3306'); //host
-define('DATABASE_NAME', 'rcc_company_db'); //database name
-define('DATABASE_USER', 'root'); //database user
-define('DATABASE_PASS', ''); //database password
+define('DATABASE_NAME', 'rcc_company_database'); //database name
+define('DATABASE_USER', 'rcc_company_user'); //database user
+define('DATABASE_PASS', 'company_user_passwd'); //database password
 
 try {
   $pdo = new PDO('mysql:host=' . DATABASE_HOST .
