@@ -82,7 +82,6 @@ CREATE TABLE `company` (
 CREATE TABLE `company_position` (
   `pk_company_position` bigint(20) UNSIGNED NOT NULL,
   `pk_company` bigint(20) UNSIGNED NOT NULL,
-  `pk_user` bigint(20) UNSIGNED DEFAULT NULL,
   `position_designation` varchar(30) NOT NULL,
   `is_valid` tinyint(1) DEFAULT NULL,
   `start_date` datetime NOT NULL,
@@ -235,7 +234,8 @@ CREATE TABLE `user` (
   `email` varchar(255) NOT NULL,
   `password` text NOT NULL,
   `is_active` tinyint(1) DEFAULT NULL,
-  `is_ban` tinyint(1) DEFAULT NULL
+  `is_ban` tinyint(1) DEFAULT NULL,
+  `pk_company_position` bigint(20) UNSIGNED NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -289,7 +289,6 @@ ALTER TABLE `company_position`
   ADD PRIMARY KEY (`pk_company_position`),
   ADD UNIQUE KEY `pk_company_position` (`pk_company_position`),
   ADD UNIQUE KEY `pk_company_position_2` (`pk_company_position`),
-  ADD KEY `pk_user` (`pk_user`),
   ADD KEY `pk_company` (`pk_company`);
 
 --
@@ -550,7 +549,7 @@ VALUES
 (4, "Treinador Nível II", 1, NOW(), NOW()),
 (4, "Treinador Nível III", 1, NOW(), NOW()),
 (4, "Graduador", 1, NOW(), NOW()),
-(4, "Ministério", 1, NOW(), NOW()),
+(4, "Ministro", 1, NOW(), NOW()),
 (4, "Vice-líder", 1, NOW(), NOW()),
 (4, "Líder", 1, NOW(), NOW()),
 
@@ -583,4 +582,19 @@ VALUES
 ("NEGATED"),
 ("APPROVED_WITH_ALTERATIONS");
 
+INSERT INTO user (pk_type_user, nickname, email, password, is_active, is_ban, pk_company_position)
+VALUES
+(1, "Goufix", "goufix@gmail.com", md5("123"), 1 , 0, 18);
+
 COMMIT;
+
+/*
+SELECT user.nickname, type_user.type_designation, company_position.position_designation, company.company_name
+FROM user, type_user, company_position, company
+WHERE
+	  user.pk_type_user = type_user.pk_type_user
+	  AND
+    user.pk_company_position = company_position.pk_company_position
+    AND
+    company_position.pk_company = company.pk_company
+*/
