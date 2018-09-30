@@ -69,7 +69,8 @@ CREATE TABLE `company` (
   `pk_company` bigint(20) UNSIGNED NOT NULL,
   `company_name` varchar(40) NOT NULL,
   `is_active` tinyint(1) DEFAULT NULL,
-  `is_in_maint` tinyint(1) DEFAULT NULL
+  `is_in_maint` tinyint(1) DEFAULT NULL,
+  `initials` varchar(30) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -498,8 +499,88 @@ ALTER TABLE `user`
 --
 ALTER TABLE `warnings`
   MODIFY `pk_warnings` bigint(20) NOT NULL AUTO_INCREMENT;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- --------------------------------------------------------
+
+--
+-- Dados iniciais a serem inseridos
+--
+
+INSERT INTO company (company_name, is_active, is_in_maint, initials)
+VALUES
+("Companhia de Instrução", "1", "1", "INS"),
+("Escola de Formação do Corpo Executivo", "1", "1", "EFE"),
+("Companhia de Supervisores de Promoção", "1", "1", "SUP"),
+("Companhia de Treinadores", "1", "1", "TRE"),
+("Companhia de Professores", "1", "1", "PROF"),
+("Companhia de Rondeiros", "1", "1", "ROND");
+
+
+INSERT INTO company_position (pk_company, position_designation, is_valid, start_date, updated_date)
+VALUES
+(1, "Aprendiz", 1, NOW(), NOW()),
+(1, "Instrutor", 1, NOW(), NOW()),
+(1, "Graduador", 1, NOW(), NOW()),
+(1, "Avaliador", 1, NOW(), NOW()),
+(1, "Estagiário", 1, NOW(), NOW()),
+(1, "Ministro", 1, NOW(), NOW()),
+(1, "Vice-líder", 1, NOW(), NOW()),
+(1, "Líder", 1, NOW(), NOW()),
+
+(2, "Professor", 1, NOW(), NOW()),
+(2, "Capacitador", 1, NOW(), NOW()),
+(2, "Graduador", 1, NOW(), NOW()),
+(2, "Ministro", 1, NOW(), NOW()),
+(2, "Vice-líder", 1, NOW(), NOW()),
+(2, "Líder", 1, NOW(), NOW()),
+
+(3, "Supervisor", 1, NOW(), NOW()),
+(3, "Tutor", 1, NOW(), NOW()),
+(3, "Fiscalizador", 1, NOW(), NOW()),
+(3, "Graduador", 1, NOW(), NOW()),
+(3, "Ministro", 1, NOW(), NOW()),
+(3, "Vice-líder", 1, NOW(), NOW()),
+(3, "Líder", 1, NOW(), NOW()),
+
+(4, "Treinador Nível I", 1, NOW(), NOW()),
+(4, "Treinador Nível II", 1, NOW(), NOW()),
+(4, "Treinador Nível III", 1, NOW(), NOW()),
+(4, "Graduador", 1, NOW(), NOW()),
+(4, "Ministério", 1, NOW(), NOW()),
+(4, "Vice-líder", 1, NOW(), NOW()),
+(4, "Líder", 1, NOW(), NOW()),
+
+(5, "Professor/Coordenador", 1, NOW(), NOW()),
+(5, "Monitor", 1, NOW(), NOW()),
+(5, "Graduador", 1, NOW(), NOW()),
+(5, "Estagiário", 1, NOW(), NOW()),
+(5, "Conselho", 1, NOW(), NOW()),
+(5, "Vice-líder", 1, NOW(), NOW()),
+(5, "Líder", 1, NOW(), NOW()),
+
+(6, "Organizador de ronda", 1, NOW(), NOW()),
+(6, "Capacitador", 1, NOW(), NOW()),
+(6, "Graduador", 1, NOW(), NOW()),
+(6, "Estagiário", 1, NOW(), NOW()),
+(6, "Ministro", 1, NOW(), NOW()),
+(6, "Vice-líder", 1, NOW(), NOW()),
+(6, "Líder", 1, NOW(), NOW());
+
+INSERT INTO type_user (type_designation)
+VALUES
+("member_in_company"),
+("superuser"),
+("ban_user");
+
+INSERT INTO type_result_project (project_designation)
+VALUES
+("APPROVED"),
+("PENDING"),
+("NEGATED"),
+("APPROVED_WITH_ALTERATIONS");
+
+COMMIT;
