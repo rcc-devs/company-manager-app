@@ -143,7 +143,9 @@
         <div class="activities mt-3">
             <h6>Auditoria Fiscal</h6>
             <hr class="my-3">
-            
+            <div class="charts">
+                <canvas id="audCharts" width="256" height="256"></canvas>
+            </div>
         </div>
     </div>
     <div class="col-lg-3">
