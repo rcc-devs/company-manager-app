@@ -31,7 +31,7 @@ USE rcc_company_database;
 --
 -- Criação de um novo username para a base de dados + permissões totais à mesma
 --
-DROP USER IF EXISTS 'rcc_company_user'@'localhost'
+DROP USER IF EXISTS 'rcc_company_user'@'localhost';
 
 CREATE USER 'rcc_company_user'@'localhost' IDENTIFIED BY 'company_user_passwd';
 GRANT ALL PRIVILEGES ON * . * TO 'rcc_company_user'@'localhost';
