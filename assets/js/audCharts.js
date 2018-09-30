@@ -1,4 +1,4 @@
-var ctx = document.getElementById("audCharts");
+var ctx = $("#audCharts");
 
 new Chart(ctx, {
   type: 'doughnut',

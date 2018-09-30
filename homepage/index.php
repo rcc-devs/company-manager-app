@@ -100,16 +100,6 @@
 
             // starting popovers
             $('[data-toggle="popover"]').popover();
-
-            $("#test").click(() => {
-                $.ajax({
-                    url: "",
-                    method: "POST",
-                    success:function () {
-                        alert("Funciona!");
-                    }
-                })
-            })
         })
     </script>
 
