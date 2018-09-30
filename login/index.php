@@ -9,8 +9,9 @@
   <title>Login — Gestão de companhias</title>
 
   <!-- Required CSS -->
-  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="../assets/css/login-style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 </head>
 <body>
@@ -21,14 +22,20 @@
         <form id="login">
             <div class="form-group">
                 <input type="email" class="form-control" placeholder="Usuário">
-                <div class="alert alert-danger mt-1" role="alert">
-                    A simple danger alert—check it out!
+                <div id="error-email" class="alert mt-1 alert-danger alert-dismissible fade show error-input" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div id="text-error-email"></div>
                 </div>
             </div>
             <div class="form-group">
                 <input type="password" class="form-control" placeholder="Senha">
-                <div class="alert alert-danger mt-1" role="alert">
-                    A simple danger alert—check it out!
+                <div id="error-password" class="alert mt-1 alert-danger alert-dismissible fade show error-input" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div id="text-error-password"></div>
                 </div>
             </div>
             <button type="submit" class="btn btn-lg btn-block btn-lgn mb-2">Login</button>
@@ -78,9 +85,10 @@
 
 
   <!-- Required JS -->
-  <script src="../assets/js/jquery.min.js"></script>
-  <script src="../assets/js/popper.min.js"></script>
-  <script src="../assets/js/bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
 </body>
 </html>
@@ -93,9 +101,31 @@
             $('form').on('submit', function (event) {
                 var email = $("input[type='email']").val();
                 var password = $("input[type='password']").val();
+                var check_session = $("#Check").is(":checked");
 
-                event.preventDefault();
+                var error = 0;
+
+                if(email === '') {
+                    $('#text-error-email').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
+                    $('#error-email').slideDown("fast");
+                    error = 1;
+                } else {
+                    $('#error-email').slideUp("fast");
+                }
+
+                if(password === '') {
+                    $('#text-error-password').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
+                    $('#error-password').slideDown("fast");
+                    error = 1;
+                } else {
+                    $('#error-password').slideUp('fast');
+                }
+
+                if(error === 1)
+                    event.preventDefault();
             });
         });
+        // starting alerts
+        $(".alert").alert();
     })(jQuery);
 </script>

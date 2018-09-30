@@ -1,5 +1,9 @@
 /* Layout */
 
+.error-input {
+  display: none;
+}
+
 html, body {
   height: 100%;
   overflow-y: hidden;
