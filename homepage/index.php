@@ -33,7 +33,6 @@
 
 </head>
 <body>
-    <button id="test"> test </button>
     <div class="global-wrapper">
         <aside class="nav-wrapper">
             <nav id="sidebar">
