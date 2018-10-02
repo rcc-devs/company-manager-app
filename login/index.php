@@ -21,12 +21,12 @@
     <div class="d-flex justify-content-center">
         <form id="login">
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="Usuário">
-                <div id="error-email" class="alert mt-1 alert-danger alert-dismissible fade show error-input" role="alert">
+                <input type="text" class="form-control" placeholder="Usuário">
+                <div id="error-username" class="alert mt-1 alert-danger alert-dismissible fade show error-input" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <div id="text-error-email"></div>
+                    <div id="text-error-username"></div>
                 </div>
             </div>
             <div class="form-group">
@@ -99,18 +99,18 @@
 
         $(function () {
             $('form').on('submit', function (event) {
-                var email = $("input[type='email']").val();
+                var email = $("input[type='text']").val();
                 var password = $("input[type='password']").val();
                 var check_session = $("#Check").is(":checked");
 
                 var error = 0;
 
                 if(email === '') {
-                    $('#text-error-email').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
-                    $('#error-email').slideDown("fast");
+                    $('#text-error-username').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
+                    $('#error-username').slideDown("fast");
                     error = 1;
                 } else {
-                    $('#error-email').slideUp("fast");
+                    $('#error-username').slideUp("fast");
                 }
 
                 if(password === '') {
