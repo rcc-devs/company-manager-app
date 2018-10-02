@@ -37,8 +37,8 @@ header {
 }
 
 footer {
-  height: 50px;
-  background-color: #FF9800;
+  padding: 1rem;
+  color: #fff;
 }
 
 p {
@@ -174,7 +174,7 @@ ul ul a {
   position: relative;
 }
 
-.destaque>.avatar {
+.destaque > .avatar {
   background-image: url('../img/avatar.png');
   width: 64px;
   height: 92px;
@@ -183,13 +183,28 @@ ul ul a {
   position: absolute;
 }
 
-.destaque>.avatar:hover {
+.destaque > .avatar:hover {
   background-image: url('../img/avatar2.png');
 }
 
-.latest>span {
+.latest > span {
   font-size: 13px;
   font-weight: 500;
+}
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.main-footer hr {
+  border: 0;
+  border-top: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.main-footer a:hover {
+  color: #CFD8DC;
 }
 
 @media (max-width: 768px) {
