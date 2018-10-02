@@ -143,8 +143,14 @@
         <div class="activities mt-3">
             <h6>Auditoria Fiscal</h6>
             <hr class="my-3">
-            <div class="charts mx-auto">
-                <canvas id="audCharts"></canvas>
+            <div class="aud">
+                <p>
+                    A companhia dos supervisores progrediu relativamente em questão de aplicação de aulas em comparação ao mês anterior (Junho), em que teve um acréscimo de duzentos e dezenove aplicações de SUP, SEG e PRO.
+                </p>
+                <p>
+                    A companhia se manteve firme e forte o mês todo, tendo apenas uma falha na segunda semana e melhorou consideravelmente na terceira semana do mês de Julho, sendo a melhor semana do mês, logo após decaindo para a média da companhia com menos cento e setenta e sete aulas na quarta e última semana do mês de Julho.
+                </p>
+                <a href="" class="btn btn-outline-company btn-lg btn-block">Ler mais</a>
             </div>
         </div>
     </div>
