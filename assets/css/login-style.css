@@ -1,18 +1,31 @@
-/* Layout */
+* {
+  box-sizing: border-box;
+}
 
-.error-input {
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 html, body {
   height: 100%;
   overflow-y: hidden;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   background: #fff url('../img/background.jpeg') no-repeat;
   background-size: cover;
@@ -49,11 +62,10 @@ body {
   padding-top: 15px;
 }
 
+.error-input {
+  display: none;
+}
 
-
-/* Media Queries */
-
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .headerDivider {
     margin-bottom: 10px;
@@ -64,7 +76,6 @@ body {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .headerDivider {
     margin-bottom: 10px;
@@ -75,7 +86,6 @@ body {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .headerDivider {
     margin-left: 3px;
@@ -86,7 +96,6 @@ body {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
   .headerDivider {
@@ -98,7 +107,6 @@ body {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
   .headerDivider {
@@ -109,27 +117,3 @@ body {
     height: 50px;
   }
 }
-
-/* Custom  scrollbar - ,SrGabriel & W3school*/
-
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-/* Typography */
