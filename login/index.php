@@ -85,6 +85,7 @@
 
 
   <!-- Required JS -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.28.4/dist/sweetalert2.all.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -99,13 +100,13 @@
 
         $(function () {
             $('form').on('submit', function (event) {
-                var email = $("input[type='text']").val();
-                var password = $("input[type='password']").val();
-                var check_session = $("#Check").is(":checked");
+                var username_rcc = $("input[type='text']").val();
+                var password_rcc = $("input[type='password']").val();
+                var check_session_rcc = $("#Check").is(":checked");
 
                 var error = 0;
 
-                if(email === '') {
+                if(username_rcc === '') {
                     $('#text-error-username').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
                     $('#error-username').slideDown("fast");
                     error = 1;
@@ -113,16 +114,46 @@
                     $('#error-username').slideUp("fast");
                 }
 
-                if(password === '') {
+                if(password_rcc === '') {
                     $('#text-error-password').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
                     $('#error-password').slideDown("fast");
                     error = 1;
                 } else {
                     $('#error-password').slideUp('fast');
                 }
-
-                if(error === 1)
-                    event.preventDefault();
+                if(error != 1) {
+                    $.ajax({
+                        url: '../files/connect.php',
+                        method: 'POST',
+                        dataType: 'text',
+                        data : {
+                            username_rcc      : username_rcc,
+                            password_rcc      : password_rcc,
+                            check_session_rcc : check_session_rcc
+                        },
+                        success : function (response) {
+                            if(response == 1){
+                                location.replace('../homepage/');
+                                return;
+                            }else {
+                                //Sweet alert definition
+                                swal({
+                                    title: 'Falha na Autenticação',
+                                    text: 'O usuário e/ou senha fornecidos estão incorreto(s).',
+                                    type: 'error',
+                                    confirmButtonText: 'Tentar novamente'
+                                })
+                            }
+                            // clear inputs
+                            $("input[type='text']").val("");
+                            $("input[type='password']").val("");
+                        },
+                        error : function () {
+                            alert("Ocorreu um erro inesperado!");
+                        }
+                    })
+                }
+                event.preventDefault();
             });
         });
         // starting alerts
