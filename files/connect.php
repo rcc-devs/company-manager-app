@@ -20,7 +20,7 @@ $row_count = $connect->rowCount();
 
 if($row_count == 1) {
     session_start();
-    $_SESSION["rcc_companhias_session"] = $connect->fetch();
+    $_SESSION['rcc_companhias_session'] = $connect->fetch();
 }
 
 echo $row_count;

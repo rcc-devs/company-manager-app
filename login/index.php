@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(isset($_SESSION['rcc_companhias_session'])) {
+        header("Location: ../homepage/");
+        exit;
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
