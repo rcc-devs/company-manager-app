@@ -18,9 +18,19 @@
 
     <div class="container">
         <div class="row content mx-auto">
+            <div class="col-lg-4">
+                <div class="welcome">
+                    <h4>Você ainda não possui uma conta?</h4>
+                    <p>A inovação anda de mãos dadas com a <strong>Polícia RCC</strong>, registre-se hoje e aproveite os recursos do sistema de <strong>Gestão de Companhias</strong>.</p>
+                    <a href="" class="btn btn-outline-secondary">Registrar</a>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <div class="divider mx-auto my-3"></div>
+            </div>
             <div class="col-lg-5">
-                <div class="register">
-                    <h6>Registre-se</h6>
+                <div class="login">
+                    <h6>Entrar</h6>
                     <hr class="my-4">
                     <form>
                         <div class="input-group mb-4">
@@ -28,15 +38,7 @@
                             <span class="icon-input"><i class="fas fa-user"></i></span>
                         </div>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control form-custom" placeholder="E-mail">
-                            <span class="icon-input"><i class="fas fa-at"></i></span>
-                        </div>
-                        <div class="input-group mb-3">
                             <input type="text" class="form-control form-custom" placeholder="Senha">
-                            <span class="icon-input"><i class="fas fa-lock"></i></span>
-                        </div>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control form-custom" placeholder="Confirme sua senha">
                             <span class="icon-input"><i class="fas fa-lock"></i></span>
                         </div>
                         <div class="input-group mb-3">
@@ -54,18 +56,10 @@
                             </div>
                         </div>
                     </form>
-                    <button class="mt-2 btn btn-block btn-secondary">Entrar</button>
+                    <a href="">Esqueceu sua senha?</a>
+                    <button class="btn btn-block btn-custom btn-secondary">Entrar</button>
                 </div>
             </div>
-            <div class="col-lg-1">
-                <div class="divider mx-auto my-3"></div>
-            </div>
-            <div class="col-lg-4">
-                <div class="welcome">
-                    <h4>Você já possui uma conta?</h4>
-                    <p>Que tal entrar e conferir as novidades adicionadas por nossos desenvolvedores? Confira agora!</p>
-                    <a href="" class="btn btn-outline-secondary">Registrar</a>
-                </div>
         </div>
     </div>
 

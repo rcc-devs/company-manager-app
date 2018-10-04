@@ -15,6 +15,7 @@
 
 html, body {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -23,20 +24,15 @@ body {
   background-position: top center;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  margin: 50px 0px 30px 0px;
-}
-
 .content {
   background-color: #3d3c41;
-  border-radius: 7px;
   color: #BDBDBD;
+  border-radius: 7px;
   font-size: 1rem;
   width: 750px;
   height: 380px;
   padding: 2rem;
+  margin-top: 170px;
   position: relative;
 }
 
@@ -46,14 +42,23 @@ body {
   height: 240px;
 }
 
-.login {
+.login,
+.register {
   background-color: #FFF;
   border-radius: 7px;
   padding: 20px;
-  width: 380px;
   height: 420px;
   position: absolute;
   top: -55px;
+}
+
+.login {
+  width: 380px;
+}
+
+.register {
+  width: 300px;
+  left: -7px;
 }
 
 .form-custom {
