@@ -19,14 +19,14 @@
     <img src="../assets/img/logo.png" class="img-fluid d-block mx-auto logo">
     <div class="container">
         <div class="row content mx-auto">
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="welcome">
                     <h4>Você ainda não possui uma conta?</h4>
-                    <p class="mb-2">A inovação anda de mãos dadas com a <strong>Polícia RCC</strong>, registre-se hoje e aproveite os recursos do sistema de <strong>Gestão de Companhias</strong>.</p>
-                    <a href="" class="btn btn-secondary">Registrar</a>
+                    <p>A inovação anda de mãos dadas com a <strong>Polícia RCC</strong>, registre-se hoje e aproveite os recursos do sistema de <strong>Gestão de Companhias</strong>.</p>
+                    <a href="" class="btn btn-outline-secondary">Registrar</a>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-1">
                 <div class="divider mx-auto my-3"></div>
             </div>
             <div class="col-lg-5">
