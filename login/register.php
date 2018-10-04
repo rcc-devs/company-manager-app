@@ -18,7 +18,7 @@
 
     <div class="container">
         <div class="row content mx-auto">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="register">
                     <h6>Registre-se</h6>
                     <hr class="my-4">
@@ -57,7 +57,7 @@
                     <button class="mt-2 btn btn-block btn-secondary">Entrar</button>
                 </div>
             </div>
-            <div class="col-lg-1">
+            <div class="col-lg-2">
                 <div class="divider mx-auto my-3"></div>
             </div>
             <div class="col-lg-4">
