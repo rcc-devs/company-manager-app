@@ -41,7 +41,20 @@
                 </div>
                 <ul class="list-unstyled components">
                     <li class="active"><a href=""><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href=""><i class="fas fa-lightbulb"></i> Liderança</a></li>
+                    <li>
+                        <a href="#homeSubmenu" data-toggle="collapse" class="dropdown-toggle">
+                            <i class="fas fa-lightbulb"></i> Liderança
+                        </a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href=""><i class="far fa-newspaper"></i> Avisos</a></li>
+                            <li><a href=""><i class="fas fa-cogs"></i> Configurações</a></li>
+                            <li><a href=""><i class="fas fa-sort"></i> Cargos</a></li>
+                            <li><a href=""><i class="fas fa-star"></i> Destaque mensal</a></li>
+                            <li><a href=""><i class="fas fa-users"></i> Membros</a></li>
+                            <li><a href=""><i class="fas fa-archive"></i> Pedidos de licenças</a></li>
+                            <li><a href=""><i class="far fa-calendar-alt"></i> Reuniões</a></li>
+                        </ul>
+                    </li>
                     <li><a href=""><i class="fas fa-gavel"></i> Ministério</a></li>
                     <li><a href=""><i class="fas fa-users"></i> Membros</a></li>
                     <li><a href=""><i class="fas fa-chalkboard-teacher"></i> Aulas</a></li>
