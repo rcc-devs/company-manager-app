@@ -15,14 +15,16 @@ echo '
             <div class="col-lg-5">
                 <div class="login">
                     <h6>Entrar</h6>
-                    <hr class="my-4">
-                    <form>
+                    <div id="error-area" class="alert mt-1 alert-danger alert-dismissible fade show error-input" role="alert">
+                        <div id="text-error-area"></div>
+                    </div>
+                    <form id="login_form">
                         <div class="input-group mb-4">
                             <input type="text" class="form-control form-custom" placeholder="Usuário">
                             <span class="icon-input"><i class="fas fa-user"></i></span>
                         </div>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control form-custom" placeholder="Senha">
+                            <input type="password" class="form-control form-custom" placeholder="Senha">
                             <span class="icon-input"><i class="fas fa-lock"></i></span>
                         </div>
                         <div class="input-group mb-3">
@@ -39,9 +41,9 @@ echo '
                                 <label class="input-group-text" for="cias">Companhias</label>
                             </div>
                         </div>
+                        <a href="">Esqueceu sua senha?</a>
+                        <button type="submit" class="btn btn-block btn-custom btn-secondary">Entrar</button>
                     </form>
-                    <a href="">Esqueceu sua senha?</a>
-                    <button class="btn btn-block btn-custom btn-secondary">Entrar</button>
                 </div>
             </div>
         </div>

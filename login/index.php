@@ -32,6 +32,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <style>
+    .error-input {
+        display: none;
+    }
+  </style>
 </head>
 <body>
     <!-- main content -->
@@ -49,28 +54,21 @@
         'use strict';
 
         //events
-         $('form').on('submit', function (event) {
+         $(document).on('submit', '#login_form', function (event) {
             var username_rcc = $("input[type='text']").val();
             var password_rcc = $("input[type='password']").val();
             var check_session_rcc = $("#Check").is(":checked");
 
             var error = 0;
 
-            if(username_rcc === '') {
-                $('#text-error-username').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
-                $('#error-username').slideDown("fast");
+            if(username_rcc === '' || password_rcc === '') {
+                $('#text-error-area').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
+                $('#error-area').slideDown("fast");
                 error = 1;
             } else {
-                $('#error-username').slideUp("fast");
+                $('#error-area').slideUp("fast");
             }
 
-            if(password_rcc === '') {
-                $('#text-error-password').html('<strong>*</strong> Campo <strong>obrigatório<strong>');
-                $('#error-password').slideDown("fast");
-                error = 1;
-            } else {
-                $('#error-password').slideUp('fast');
-            }
             if(error != 1) {
                 $.ajax({
                     url: '../files/connect.php',
