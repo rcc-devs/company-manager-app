@@ -27,7 +27,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                         <i class="fas fa-ellipsis-v"></i>
                     </a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu dropdown-menu-right">
                         <a href="" class="dropdown-item">
                             Bugs
                             <span class="badge badge-pill badge-danger">3</span>
