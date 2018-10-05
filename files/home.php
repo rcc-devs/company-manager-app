@@ -23,7 +23,19 @@
                     </div>
                 </li>
                 <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-search"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-flag"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">
+                            Bugs
+                            <span class="badge badge-pill badge-danger">3</span>
+                        </a>
+                        <a href="" class="dropdown-item">Central de ajuda</a>
+                        <a href="" class="dropdown-item">Ferramentas do desenvolvedor</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
