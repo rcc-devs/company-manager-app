@@ -9,10 +9,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-search"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-bell"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Olá, .Wire.-</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">
+                            Alertas
+                            <span class="badge badge-pill badge-success">14</span>
+                        </a>
+                        <a href="" class="dropdown-item">Meu perfil</a>
+                        <a href="" class="dropdown-item">Configurações</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sair</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-search"></i></a></li>
                 <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-flag"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-ellipsis-v"></i></a></li>
             </ul>
         </div>
     </div>

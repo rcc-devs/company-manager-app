@@ -38,7 +38,7 @@ echo '
                             </div>
                         </div>
                     </form>
-                    <button class="mt-2 btn btn-block btn-secondary">Entrar</button>
+                    <button class="mt-2 btn btn-block btn-secondary">Registrar</button>
                 </div>
             </div>
             <div class="col-lg-2">

@@ -1,29 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
 /**
-* Custom scrollbar
-*/
+  Custom Scrollbar:
+  1. Width;
+  2. Track;
+  3. Handle;
+  */
 
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
-}
+::-webkit-scrollbar { width: 12px; }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
+::-webkit-scrollbar-track { background: #f1f1f1; }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
+::-webkit-scrollbar-thumb { background: #888; }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+::-webkit-scrollbar-thumb:hover { background: #555; }
 
 html, body {
   height: 100%;
@@ -136,6 +128,11 @@ ul ul a {
   border-radius: .25rem;
   margin-bottom: 40px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none !important;
 }
 
 .navbar-btn {
