@@ -7,7 +7,7 @@
         header('Location: ../login');
     } */
 
-    $_SESSION['company_code'] = 0;
+    $_SESSION['company_code'] = $_SESSION['rcc_companhias_session']['pk_company'];
     // require database connection
     require("../files/database.php");
 
