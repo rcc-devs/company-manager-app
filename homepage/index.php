@@ -42,26 +42,72 @@
                 <ul class="list-unstyled components">
                     <li class="active"><a href=""><i class="fas fa-home"></i> Home</a></li>
                     <li>
-                        <a href="#homeSubmenu" data-toggle="collapse" class="dropdown-toggle">
-                            <i class="fas fa-lightbulb"></i> Liderança
+                        <a href="#leadershipMenu" data-toggle="collapse" class="dropdown-toggle">
+                            <i class="fas fa-lightbulb"></i>
+                            Liderança
                         </a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li><a href=""><i class="far fa-newspaper"></i> Avisos</a></li>
+                        <ul class="collapse list-unstyled" id="leadershipMenu">
                             <li><a href=""><i class="fas fa-cogs"></i> Configurações</a></li>
                             <li><a href=""><i class="fas fa-sort"></i> Cargos</a></li>
-                            <li><a href=""><i class="fas fa-star"></i> Destaque mensal</a></li>
-                            <li><a href=""><i class="fas fa-users"></i> Membros</a></li>
-                            <li><a href=""><i class="fas fa-archive"></i> Pedidos de licenças</a></li>
+                            <li><a href=""><i class="fas fa-layer-group"></i> Projetos</a></li>
+                            <li><a href=""><i class="fas fa-archive"></i> Requerimentos</a></li>
                             <li><a href=""><i class="far fa-calendar-alt"></i> Reuniões</a></li>
                         </ul>
                     </li>
-                    <li><a href=""><i class="fas fa-gavel"></i> Ministério</a></li>
-                    <li><a href=""><i class="fas fa-users"></i> Membros</a></li>
-                    <li><a href=""><i class="fas fa-chalkboard-teacher"></i> Aulas</a></li>
-                    <li><a href=""><i class="fas fa-medal"></i> Gratificações</a></li>
+                    <li>
+                        <a href="#ministryMenu" data-toggle="collapse" class="dropdown-toggle">
+                            <i class="fas fa-gavel"></i>
+                            Ministério
+                        </a>
+                        <ul class="collapse list-unstyled" id="ministryMenu">
+                            <li><a href=""><i class="fas fa-sync-alt"></i> Atualizações</a></li>
+                            <li><a href=""><i class="fas fa-calculator"></i> Calcular metas</a></li>
+                            <li><a href=""><i class="fas fa-star"></i> Destaque mensal</a></li>
+                            <li><a href=""><i class="fas fa-certificate"></i> Emblemas</a></li>
+                            <li><a href=""><i class="fas fa-clipboard-list"></i> Seletivas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#classMenu" data-toggle="collapse" class="dropdown-toggle">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            Aulas
+                        </a>
+                        <ul class="collapse list-unstyled" id="classMenu">
+                            <li><a href=""><i class="fas fa-chalkboard"></i> Supervisão para Soldados</a></li>
+                            <li><a href=""><i class="fas fa-chalkboard"></i> Aula de Segurança</a></li>
+                            <li><a href=""><i class="fas fa-chalkboard"></i> Aula para Promotor</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="far fa-newspaper"></i> Avisos</a></li>
+                    <li><a href=""><i class="fas fa-book"></i> Documentação</a></li>
                     <li><a href=""><i class="far fa-calendar-alt"></i> Eventos</a></li>
+                    <li>
+                        <a href="#formMenu" data-toggle="collapse" class="dropdown-toggle">
+                            <i class="fas fa-file-alt"></i>
+                            Formulários
+                        </a>
+                        <ul class="collapse list-unstyled" id="formMenu">
+                            <li><a href=""><i class="fas fa-file-signature"></i> Supervisão para Soldados</a></li>
+                            <li><a href=""><i class="fas fa-file-signature"></i> Aula de Segurança</a></li>
+                            <li><a href=""><i class="fas fa-file-signature"></i> Aula para Promotor</a></li>
+                            <li><a href=""><i class="fas fa-file-signature"></i> Requerimentos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fas fa-medal"></i> Gratificações</a></li>
+                    <li><a href=""><i class="fas fa-users"></i> Membros</a></li>
                     <li><a href=""><i class="fas fa-layer-group"></i> Projetos</a></li>
-                    <li><a href=""><i class="fas fa-th-large"></i> Utilitários</a></li>
+                    <li>
+                        <a href="#utilitiesMenu" data-toggle="collapse" class="dropdown-toggle">
+                            <i class="fas fa-th-large"></i>
+                            Utilitários
+                        </a>
+                        <ul class="collapse list-unstyled" id="utilitiesMenu">
+                            <li><a href=""><i class="fas fa-th-list"></i> Programas</a></li>
+                            <li><a href=""><i class="fas fa-th-list"></i> Ouvidoria</a></li>
+                            <li><a href=""><i class="fas fa-th-list"></i> Tutoriais</a></li>
+                            <li><a href=""><i class="fas fa-th-list"></i> Links</a></li>
+                        </ul>
+                    </li>
                     <li><a href=""><i class="far fa-question-circle"></i> Perguntas frequentes</a></li>
                 </ul>
                 <ul class="list-unstyled">
