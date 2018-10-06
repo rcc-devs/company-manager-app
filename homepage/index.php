@@ -2,10 +2,11 @@
     // open session
     session_start();
 
-    // in dev - bmartins
-    /* if(isset($_SESSION['rcc_main_session'])) {
-        header('Location: ../login');
-    } */
+    // if session = expired or null. No session yet return to login/register page
+    if(isset($_SESSION['rcc_companhias_session'])) {
+        header("Location: ../homepage/");
+        exit;
+    }
 
     $_SESSION['company_code'] = $_SESSION['rcc_companhias_session']['pk_company'];
     // require database connection
