@@ -65,8 +65,12 @@
   background: <?php echo $options["hover"] ?> !important;
 }
 
-.bg-custom-company{
-  background: <?php echo $options["color"] ?>
+.bg-custom-company {
+  background: <?php echo $options["color"] ?>;
+}
+
+.bg-hover-company {
+  background: <?php echo $options["hover"] ?>;
 }
 
 .btn-custom-company {
@@ -75,7 +79,7 @@
   color: #fff;
 }
 
-.btn-custom-company:hover{
+.btn-custom-company:hover {
   background: <?php echo $options["hover"] ?>
 }
 

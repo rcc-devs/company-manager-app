@@ -184,9 +184,9 @@
             <div class="goals">
                 <span>Meta total</span>
                 <div class="progress" style="height: 20px;">
-                    <div class="progress-bar bg-success" style="width: 50%" data-toggle="tooltip" data-placement="top" title="50/100"></div>
+                    <div class="progress-bar bg-hover-company" style="width: 50%" data-toggle="tooltip" data-placement="top" title="50/100"></div>
                     <div class="progress-bar bg-warning" style="width: 5%" data-toggle="tooltip" data-placement="top" title="5/100"></div>
-                    <div class="progress-bar bg-success" style="width: 30%" data-toggle="tooltip" data-placement="top" title="30/100"></div>
+                    <div class="progress-bar bg-hover-company" style="width: 30%" data-toggle="tooltip" data-placement="top" title="30/100"></div>
                 </div>
                 <hr class="my-3">
                 <span>Supervisões</span>
