@@ -26,7 +26,7 @@
 
     <!-- Required CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/homepage-style.css">
+    <link rel="stylesheet" href="../assets/css/content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- Custom colors base in company -->
@@ -123,15 +123,51 @@
         </aside>
         <main class="content-wrapper">
             <div class="main-content">
-            <?php
-                switch($main_url) {
-                    // TODO: System by database
-                    default :  {
-                        include '../files/home.php';
-                        break;
-                    }
-                }
-            ?>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-custom-company">
+                    <div class="container-fluid">
+                        <button type="button" id="sidebarCollapse" class="btn btn-custom-company">
+                            <i class="fas fa-align-left"></i>
+                            <span>Menu</span>
+                        </button>
+                        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarContent">
+                            <i class="fas fa-align-justify"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Olá, .Wire.-</a>
+                                    <div class="dropdown-menu">
+                                        <a href="" class="dropdown-item">
+                                            Alertas
+                                            <span class="badge badge-pill badge-success">14</span>
+                                        </a>
+                                        <a href="" class="dropdown-item">Meu perfil</a>
+                                        <a href="" class="dropdown-item">Configurações</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Sair</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-search"></i></a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="" class="dropdown-item">
+                                            Bugs
+                                            <span class="badge badge-pill badge-danger">3</span>
+                                        </a>
+                                        <a href="" class="dropdown-item">Central de ajuda</a>
+                                        <a href="" class="dropdown-item">Ferramentas do desenvolvedor</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- files zone -->
+                    <?php require '../files/pages/home.php'; ?>
+                <!-- files zone -->
             </div>
             <?php
                 //Including footer
