@@ -3,8 +3,8 @@
     session_start();
 
     // if session = expired or null. No session yet return to login/register page
-    if(isset($_SESSION['rcc_companhias_session'])) {
-        header("Location: ../homepage/");
+    if(!isset($_SESSION['rcc_companhias_session'])) {
+        header("Location: ../login/");
         exit;
     }
 
